@@ -80,6 +80,8 @@ El lenguaje **Digital** permite definir variables, ejecutar bucles, realizar ope
 ---
 ## Ejemplo de Programa en Digital:
 
+### Extensión del archivo: `.digimon`
+
     digimon aventuramon {
       digital puedeEvolucionarmon;
       digital agumon;

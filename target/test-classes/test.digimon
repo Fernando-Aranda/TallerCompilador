@@ -1,5 +1,0 @@
-digimon miprogramamon {
-    digital Textomon;
-    Textomon = "Hola, bienvenido a mi compilador Digimon";
-	digitalk Textomon;
-}
