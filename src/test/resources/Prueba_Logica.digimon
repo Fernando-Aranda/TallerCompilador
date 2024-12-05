@@ -1,0 +1,53 @@
+digimon mainmon {
+    // Declaración de variables
+    digital xmon;
+    digital ymon;
+    digital resultmon;
+
+    // Asignación de valores
+    xmon = 0;
+    ymon = 10;
+    resultmon = 0;
+
+    // Condicional IF-ELSE
+    digitalk "---- IF - ELSE ----";
+    digivolution_if (xmon > ymon) {
+        digitalk "xmon tiene mas nivel que ymon";
+    } digivolution_else {
+        digitalk "ymon tiene mas nivel que xmon";
+    }
+	
+    // While loop
+    digitalk "---- While loop ----";
+    training (xmon < 3) {
+        xmon = xmon + 1;
+        digitalk xmon;
+    }
+
+    // For loop
+    digitalk "---- For loop ----";
+    fight (2) {
+        resultmon = resultmon + 1;
+        digitalk resultmon;
+    }
+
+    // Operaciones lógicas
+    digitalk "---- Operaciones logicas ----";
+    digital verdadmon;
+    digital falsomon;
+    verdadmon = true;
+    falsomon = false;
+
+    digivolution_if (verdadmon || falsomon) {
+        digitalk "por lo menos uno es verdadero.";
+    } digivolution_else {
+        digitalk "los dos son falsos.";
+    }
+    
+    digivolution_if (verdadmon && falsomon) {
+        digitalk "los dos son verdaderos.";
+    } digivolution_else {
+        digitalk "por lo menos uno es falso.";
+    }
+    
+}

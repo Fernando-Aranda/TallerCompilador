@@ -1,0 +1,12 @@
+digimon miprogramamon {
+    digital xmon;
+    digital ymon;
+    xmon = 5;
+    ymon = 10;
+
+    digivolution_if ((ymon > 0) || (xmon < 0)) {
+        digitalk "Digievolucion!";
+    } digivolution_else {
+        digitalk "Other conditions.";
+    }
+}
