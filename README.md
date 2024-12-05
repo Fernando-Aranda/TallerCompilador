@@ -113,6 +113,14 @@ El lenguaje **Digital** permite definir variables, ejecutar bucles, realizar ope
             digitalk "Agumon no puede digievolucionar.";
         }
     }
+
+### Casos de prueba: 
+- `src/test/resources/test.digimon`
+- `src/test/resources/test2.digimon`
+- `src/test/resources/test3.digimon`
+- `src/test/resources/Prueba_Aritmetica.digimon`
+- `src/test/resources/Prueba_Logica.digimon`
+
 ---
 ## Diseño del Lenguaje <img height="16" src="imagenes/drimogemon.png" width="16"/>
 
