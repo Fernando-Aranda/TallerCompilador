@@ -1,4 +1,4 @@
-// Generated from Digital.g4 by ANTLR 4.4
+// Generated from com\fundamentos\cs\interprete\Digital.g4 by ANTLR 4.9.2
 package com.fundamentos.cs.interprete;
 
 	import java.util.Map;
@@ -10,7 +10,6 @@ package com.fundamentos.cs.interprete;
 
 
 import org.antlr.v4.runtime.ParserRuleContext;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
@@ -25,156 +24,156 @@ public class DigitalBaseListener implements DigitalListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSentence(@NotNull DigitalParser.SentenceContext ctx) { }
+	@Override public void enterProgram(DigitalParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitSentence(@NotNull DigitalParser.SentenceContext ctx) { }
+	@Override public void exitProgram(DigitalParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrintln(@NotNull DigitalParser.PrintlnContext ctx) { }
+	@Override public void enterSentence(DigitalParser.SentenceContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrintln(@NotNull DigitalParser.PrintlnContext ctx) { }
+	@Override public void exitSentence(DigitalParser.SentenceContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterExpression(@NotNull DigitalParser.ExpressionContext ctx) { }
+	@Override public void enterPrintln(DigitalParser.PrintlnContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitExpression(@NotNull DigitalParser.ExpressionContext ctx) { }
+	@Override public void exitPrintln(DigitalParser.PrintlnContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterConditional(@NotNull DigitalParser.ConditionalContext ctx) { }
+	@Override public void enterWhile_loop(DigitalParser.While_loopContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitConditional(@NotNull DigitalParser.ConditionalContext ctx) { }
+	@Override public void exitWhile_loop(DigitalParser.While_loopContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterWhile_loop(@NotNull DigitalParser.While_loopContext ctx) { }
+	@Override public void enterFor_loop(DigitalParser.For_loopContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitWhile_loop(@NotNull DigitalParser.While_loopContext ctx) { }
+	@Override public void exitFor_loop(DigitalParser.For_loopContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVar_assign(@NotNull DigitalParser.Var_assignContext ctx) { }
+	@Override public void enterConditional(DigitalParser.ConditionalContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVar_assign(@NotNull DigitalParser.Var_assignContext ctx) { }
+	@Override public void exitConditional(DigitalParser.ConditionalContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTerm(@NotNull DigitalParser.TermContext ctx) { }
+	@Override public void enterVar_decl(DigitalParser.Var_declContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTerm(@NotNull DigitalParser.TermContext ctx) { }
+	@Override public void exitVar_decl(DigitalParser.Var_declContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterProgram(@NotNull DigitalParser.ProgramContext ctx) { }
+	@Override public void enterVar_assign(DigitalParser.Var_assignContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitProgram(@NotNull DigitalParser.ProgramContext ctx) { }
+	@Override public void exitVar_assign(DigitalParser.Var_assignContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFor_loop(@NotNull DigitalParser.For_loopContext ctx) { }
+	@Override public void enterExpression(DigitalParser.ExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFor_loop(@NotNull DigitalParser.For_loopContext ctx) { }
+	@Override public void exitExpression(DigitalParser.ExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVar_decl(@NotNull DigitalParser.Var_declContext ctx) { }
+	@Override public void enterFactor(DigitalParser.FactorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVar_decl(@NotNull DigitalParser.Var_declContext ctx) { }
+	@Override public void exitFactor(DigitalParser.FactorContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFactor(@NotNull DigitalParser.FactorContext ctx) { }
+	@Override public void enterTerm(DigitalParser.TermContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFactor(@NotNull DigitalParser.FactorContext ctx) { }
+	@Override public void exitTerm(DigitalParser.TermContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterEveryRule(@NotNull ParserRuleContext ctx) { }
+	@Override public void enterEveryRule(ParserRuleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitEveryRule(@NotNull ParserRuleContext ctx) { }
+	@Override public void exitEveryRule(ParserRuleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void visitTerminal(@NotNull TerminalNode node) { }
+	@Override public void visitTerminal(TerminalNode node) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void visitErrorNode(@NotNull ErrorNode node) { }
+	@Override public void visitErrorNode(ErrorNode node) { }
 }
