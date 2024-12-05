@@ -135,14 +135,19 @@ Soporta bloques condicionales, ciclos, y expresiones matemáticas.
 
 ---
 ## Instalación y Uso <img height="16" src="imagenes/andromon.png" width="16"/>
-## Requisitos previos:
+### Requisitos previos:
 
 - JDK 11 o superior.
 - ANTLR4.
 
-## Ejecutar el 
+### 1. Ejecutar el main:
+primero se necesita ejecutar el archivo "Main.java" (`src/main/java/com/fundamentos/cs/interprete/Main.java`) utilizando el IDE de preferencia.
+
+### 2. Seleccionar archivo utilizando el Interfaz:
+
+Selecionar el botón de "Abrir archivo" e ingresar cualquier archivo de formato ".digimon", luego la consola mostrara el resultado del archivo compilado y ejecutado.
 
 
-
+## <img height="381" src="imagenes/interfaz.png" width="445"/>
 
 
