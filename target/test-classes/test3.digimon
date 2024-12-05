@@ -1,0 +1,30 @@
+digimon aventuramon {
+    digital agumon;
+    digital powermon;
+    digital puedeEvolucionarmon;
+
+    agumon = true;
+    powermon = 0;
+    puedeEvolucionarmon = false;
+
+    training (powermon < 30) {
+        digitalk "Entrenando a agumon ";
+        powermon = powermon + 10;
+
+        digivolution_if (powermon > 20) {
+                digitalk "Agumon esta listo para digievolucionar a Greymon!";
+                puedeEvolucionarmon = true;
+            } digivolution_else {
+                digitalk "Entrenamiento necesario para digievolucionar.";
+            }
+    }
+
+    digitalk "Poder actual de Agumon: " ;
+    digitalk powermon;
+
+    digivolution_if (puedeEvolucionarmon && agumon) {
+            digitalk "Agumon digievoluciona a Greymon! ";
+        } digivolution_else {
+            digitalk "Agumon no puede digievolucionar.";
+        }
+}
