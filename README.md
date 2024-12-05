@@ -138,7 +138,7 @@ Soporta bloques condicionales, ciclos, y expresiones matemáticas.
 ### Requisitos previos:
 
 - JDK 11 o superior.
-- ANTLR4.
+- IDE java para ejecutar main.
 
 ### 1. Ejecutar el main:
 primero se necesita ejecutar el archivo "Main.java" (`src/main/java/com/fundamentos/cs/interprete/Main.java`) utilizando el IDE de preferencia.
