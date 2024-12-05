@@ -67,7 +67,7 @@ El lenguaje **Digital** permite definir variables, ejecutar bucles, realizar ope
 
 ### 5. **Impresión** <img height="16" src="imagenes/talk.png" width="16"/>  <img height="16" src="imagenes/drimogemon.png" width="16"/> 
 - **Palabra clave**: `digitalk `
-- **Descripción**: Se ocupa para mostrar texo en pantalla.
+- **Descripción**: Se ocupa para mostrar texto en pantalla.
 - **Ejemplo**:
   ```text
   digitalk "¡Hola, Digimundo!";
